@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "types": [
+            "node"
+        ], // This line ensures TypeScript includes the Node.js type definitions
+        "outDir": "./dist"
+    },
+    "include": [
+        "*"
+, "src/index.ts"    ]
+}

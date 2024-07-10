@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - cd lambda
+      - npm install
+  build:
+    commands:
+      - npm run build
+artifacts:
+  files:
+    - dist/**/*
+  base-directory: lambda
