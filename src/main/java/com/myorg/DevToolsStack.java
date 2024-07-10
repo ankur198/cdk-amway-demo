@@ -73,7 +73,6 @@ public class DevToolsStack extends Stack {
                                 "referenceName", List.of("main")))
                         .build())
                 .build();
-                dfgdfg-template-1720609456273.yaml
         codeCommitRule.addTarget(new CodeBuildProject(codeBuildLambda));
 
         var sourceArtifact = Artifact.artifact("SourceArtifact");
